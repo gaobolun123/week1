@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-image": "^4.4.1"
+  }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="fonts2/iconfont.css">
+    <link rel="stylesheet" href="css/swiper.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="left">HUPU</div>
+            <div class="right">
+                <i class="iconfont icon-gerenxinxi"></i>
+            </div>
+        </header>
+        <section class="main">
+            <ul class="list">
+                <li>NBA</li>
+                <li>CBA</li>
+                <li>足球</li>
+                <li>电竞</li>
+                <li>社区</li>
+                <li>游戏</li>
+                <li>步行</li>
+                <li>健身</li>
+                <li>交易</li>
+            </ul>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/1_02.jpg"></div>
+                    <div class="swiper-slide" style="background: skyblue"></div>
+                    <div class="swiper-slide" style="background: lawngreen"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <ul class="news">
+                <li>
+                    <div class="nLeft">
+                        <p class="logo">NBA</p>
+                        <h5>爵士vs快船</h5>
+                    </div>
+                    <div class="nRight">
+                        <p class="number">
+                            <span>137</span>-143
+                        </p>
+                        <div class="aaa"></div>
+                        <p class="over">已结束</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="nLeft">
+                        <p class="logo">NBA</p>
+                        <h5>森林狼vs掘金</h5>
+                    </div>
+                    <div class="nRight">
+                        <p class="number">
+                            <span>137</span>-143
+                        </p>
+                        <div class="aaa"></div>
+                        <p class="over">已结束</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="nLeft">
+                        <p class="logo">NBA</p>
+                        <h5>国王vs开拓者</h5>
+                    </div>
+                    <div class="nRight">
+                        <p class="number">
+                            <span>137</span>-143
+                        </p>
+                        <div class="aaa"></div>
+                        <p class="over">已结束</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="starts">
+                <ul>
+                    <li>
+                        <div class="sleft">
+                            <img src="images/s1_03.jpg" alt="">
+                        </div>
+                        <div class="sright">
+                            <p>
+                                <span>NBA</span> 终点站!谁谁谁的最后一站！干就完了
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sleft">
+                            <img src="images/s2_03.jpg" alt="">
+                        </div>
+                        <div class="sright">
+                            <p>
+                                <span>NBA</span> 终点站!谁谁谁的最后一站！干就完了
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="sleft">
+                            <img src="images/s3_03.jpg" alt="">
+                        </div>
+                        <div class="sright">
+                            <p>
+                                <span>NBA</span> 终点站!谁谁谁的最后一站！干就完了
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer"></footer>
+    </div>
+</body>
+<script src="js/flexible.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/better-scroll.js"></script>
+<script>
+    //实例化swiper
+    var Swiper = new Swiper('.swiper-container', {
+        autoplay: true,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination'
+        }
+    })
+</script>
+
+</html>
